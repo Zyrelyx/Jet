@@ -1,0 +1,173 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - Lyarra Stark [2]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> - Catelyn Tully [5]
+> - Jon Snow [6]
+> - Robb Stark [7]
+> - Sansa Stark [8]
+> - Arya Stark [9]
+> - ? [10]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< add Joffrey Baratheon
+> Successfully created Joffrey Baratheon [11]!
+> 
+? vsp> 
+< add Tywin Lannister
+> Successfully created Tywin Lannister [12]!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - Lyarra Stark [2]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> - Catelyn Tully [5]
+> - Jon Snow [6]
+> - Robb Stark [7]
+> - Sansa Stark [8]
+> - Arya Stark [9]
+> - ? [10]
+> - Joffrey Baratheon [11]*
+> - Tywin Lannister [12]*
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< connect 12 parent1:gp1 11
+> Created unknown parent1 [13]!
+> Successfully connected Tywin Lannister [12] as parent1:gp1 of Joffrey Baratheon [11]!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - Lyarra Stark [2]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> - Catelyn Tully [5]
+> - Jon Snow [6]
+> - Robb Stark [7]
+> - Sansa Stark [8]
+> - Arya Stark [9]
+> - ? [10]
+> - Joffrey Baratheon [11]
+> - Tywin Lannister [12]
+> - ? [13]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< draw-all
+>   Benjen Stark [3] -> Rickard Stark [1]
+>   Benjen Stark [3] -> Lyarra Stark [2]
+>   Eddard Stark [4] -> Rickard Stark [1]
+>   Eddard Stark [4] -> Lyarra Stark [2]
+>   Jon Snow [6] -> Eddard Stark [4]
+>   Jon Snow [6] -> ? [10]
+>   Robb Stark [7] -> Catelyn Tully [5]
+>   Robb Stark [7] -> Eddard Stark [4]
+>   Sansa Stark [8] -> Eddard Stark [4]
+>   Sansa Stark [8] -> Catelyn Tully [5]
+>   Arya Stark [9] -> Eddard Stark [4]
+>   Arya Stark [9] -> Catelyn Tully [5]
+>   Joffrey Baratheon [11] -> ? [13]
+>   ? [13] -> Tywin Lannister [12]
+> 
+? vsp> 
+< rename 13 Cersei Lannister
+> Renaming ? [13] to Cersei Lannister [13] was successful!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - Lyarra Stark [2]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> - Catelyn Tully [5]
+> - Jon Snow [6]
+> - Robb Stark [7]
+> - Sansa Stark [8]
+> - Arya Stark [9]
+> - ? [10]
+> - Joffrey Baratheon [11]
+> - Tywin Lannister [12]
+> - Cersei Lannister [13]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< draw-all
+>   Benjen Stark [3] -> Rickard Stark [1]
+>   Benjen Stark [3] -> Lyarra Stark [2]
+>   Eddard Stark [4] -> Rickard Stark [1]
+>   Eddard Stark [4] -> Lyarra Stark [2]
+>   Jon Snow [6] -> Eddard Stark [4]
+>   Jon Snow [6] -> ? [10]
+>   Robb Stark [7] -> Catelyn Tully [5]
+>   Robb Stark [7] -> Eddard Stark [4]
+>   Sansa Stark [8] -> Eddard Stark [4]
+>   Sansa Stark [8] -> Catelyn Tully [5]
+>   Arya Stark [9] -> Eddard Stark [4]
+>   Arya Stark [9] -> Catelyn Tully [5]
+>   Joffrey Baratheon [11] -> Cersei Lannister [13]
+>   Cersei Lannister [13] -> Tywin Lannister [12]
+> 
+? vsp> 
+< relationship 11 4
+> There is no relationship between Joffrey Baratheon [11] and Eddard Stark [4].
+> 
+? vsp> 
+< relationship 11 13
+> Joffrey Baratheon [11] and Cersei Lannister [13] are related.
+> Joffrey Baratheon [11] is the child of Cersei Lannister [13].
+> 
+? vsp> 
+< delete 2
+> Deleting Lyarra Stark [2] was successful!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - ? [2]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> - Catelyn Tully [5]
+> - Jon Snow [6]
+> - Robb Stark [7]
+> - Sansa Stark [8]
+> - Arya Stark [9]
+> - ? [10]
+> - Joffrey Baratheon [11]
+> - Tywin Lannister [12]
+> - Cersei Lannister [13]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< prune
+> Pruning was successful!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> - Catelyn Tully [5]
+> - Jon Snow [6]
+> - Robb Stark [7]
+> - Sansa Stark [8]
+> - Arya Stark [9]
+> - Joffrey Baratheon [11]
+> - Tywin Lannister [12]
+> - Cersei Lannister [13]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< draw-all configs/config_15
+> Creating DOT-file was successful!
+> 
+? vsp> 
+< quit
+> Bye.

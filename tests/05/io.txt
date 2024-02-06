@@ -1,0 +1,19 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - Lyarra Stark [2]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> - Catelyn Tully [5]
+> - Jon Snow [6]
+> - Robb Stark [7]
+> - Sansa Stark [8]
+> - Arya Stark [9]
+> - ? [10]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< quit
+> Bye.

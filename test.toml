@@ -1,0 +1,155 @@
+[project_definition]
+binary_path = "./assignment"
+makefile_path = "."
+make_targets = ["all"]
+project_name = "assignment"
+global_timeout = 20
+
+################################################################################
+## public test cases
+##
+
+[[testcases]]
+name = "Where is my config file"
+description = "Config file not found"
+type = "OrdIO"
+io_file = "tests/01/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 3
+argv = ["random_path.dot"]
+
+[[testcases]]
+name = "End with EOF"
+description = ""
+type = "OrdIO"
+io_file = "tests/02/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = ["configs/config_02.dot"]
+
+[[testcases]]
+name = "Invalid File"
+description = "Person has more than 2 parents"
+type = "OrdIO"
+io_file = "tests/03/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 4
+argv = ["configs/config_03.dot"]
+
+
+[[testcases]]
+name = "Valid File, help"
+description = "Reading a valid file and print help"
+type = "OrdIO"
+io_file = "tests/04/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = ["configs/config_04.dot"]
+
+[[testcases]]
+name = "List the File content"
+description = "Read a valid file and list the content"
+type = "OrdIO"
+io_file = "tests/05/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = ["configs/config_05.dot"]
+
+[[testcases]]
+name = "Basic pruning"
+description = "basic pruning test"
+type = "OrdIO"
+io_file = "tests/06/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = ["configs/config_06.dot"]
+
+[[testcases]]
+name = "Add to empty"
+description = "No config and add persons"
+type = "OrdIO"
+io_file = "tests/07/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = []
+
+[[testcases]]
+name = "Basic Rename"
+description = "Rename test with errors"
+type = "OrdIO"
+io_file = "tests/08/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = []
+
+[[testcases]]
+name = "Basic Delete"
+description = "Delete test with errors"
+type = "OrdIO"
+io_file = "tests/09/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = []
+
+[[testcases]]
+name = "Basic draw-all"
+description = "draw-all command with errors to terminal and file"
+type = "OrdIO"
+io_file = "tests/10/io.txt"
+io_prompt = "s*>\\s*$"
+add_out_file = "configs/config_10.dot"
+add_exp_file = "tests/10/config_ref.dot"
+exp_exit_code = 0
+argv = ["configs/config_10.dot"]
+
+[[testcases]]
+name = "Basic draw"
+description = "draw-all command with errors to terminal and file"
+type = "OrdIO"
+io_file = "tests/11/io.txt"
+io_prompt = "s*>\\s*$"
+add_out_file = "configs/config_11.dot"
+add_exp_file = "tests/11/config_ref.dot"
+exp_exit_code = 0
+argv = ["configs/config_11.dot"]
+
+[[testcases]]
+name = "Basic connect"
+description = "connect test with errors"
+type = "OrdIO"
+io_file = "tests/12/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = []
+
+[[testcases]]
+name = "Basic relationship"
+description = "relationship test with errors"
+type = "OrdIO"
+io_file = "tests/13/io.txt"
+io_prompt = "s*>\\s*$"
+exp_exit_code = 0
+argv = ["configs/config_13.dot"]
+
+[[testcases]]
+name = "Lannisters are a close Familiy"
+description = "Check the relationship, delete and prune"
+type = "OrdIO"
+io_file = "tests/14/io.txt"
+io_prompt = "s*>\\s*$"
+add_out_file = "configs/config_14.dot"
+add_exp_file = "tests/14/config_ref.dot"
+exp_exit_code = 0
+argv = ["configs/config_14.dot"]
+
+[[testcases]]
+name = "Assignment description example"
+description = "Example from the assignment description"
+type = "OrdIO"
+io_file = "tests/15/io.txt"
+io_prompt = "s*>\\s*$"
+add_out_file = "configs/config_15.dot"
+add_exp_file = "tests/15/config_ref.dot"
+exp_exit_code = 0
+argv = ["configs/config_15.dot"]
+

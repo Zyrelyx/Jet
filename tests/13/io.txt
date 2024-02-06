@@ -1,0 +1,27 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< relationship
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< relationship 4 this is also invalid
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< relationship 4444 4
+> Error: ID [4444] does not exist. Use 'list' to find all available persons.
+> 
+? vsp> 
+< relationship 9 4
+> Arya Stark [9] and Eddard Stark [4] are related.
+> Arya Stark [9] is the child of Eddard Stark [4].
+> 
+? vsp> 
+< relationship 4 9
+> Eddard Stark [4] and Arya Stark [9] are related.
+> Eddard Stark [4] is the parent of Arya Stark [9].
+> 
+? vsp> 
+< quit
+> Bye.

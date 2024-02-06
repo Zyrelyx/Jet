@@ -1,0 +1,7 @@
+digraph FamilyTree
+{
+  "Aerys Targaryen II (The Mad) [14]" -> "Jaehaerys Targaryen II [13]";
+  "Rhaegar Targaryen [15]" -> "Aerys Targaryen II (The Mad) [14]";
+  "Viserys Targaryen [16]" -> "Aerys Targaryen II (The Mad) [14]";
+  "Daenerys Targaryen [17]" -> "Aerys Targaryen II (The Mad) [14]";
+}

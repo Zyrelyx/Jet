@@ -1,0 +1,45 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< list
+> - Rickard Stark [11]
+> - Lyarra Stark [12]
+> - Benjen Stark [13]
+> - Eddard Stark [14]
+> - Catelyn Tully [15]
+> - Jon Snow [16]
+> - Robb Stark [17]
+> - Sansa Stark [18]
+> - Arya Stark [19]
+> - ? [20]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< draw
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< draw 33 to many parameters
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< draw 1 
+> Error: ID [1] does not exist. Use 'list' to find all available persons.
+> 
+? vsp> 
+< draw 11
+> 
+? vsp> 
+< draw 19
+>   Eddard Stark [14] -> Rickard Stark [11]
+>   Eddard Stark [14] -> Lyarra Stark [12]
+>   Arya Stark [19] -> Eddard Stark [14]
+>   Arya Stark [19] -> Catelyn Tully [15]
+> 
+? vsp> 
+< draw 19 configs/config_11
+> Creating DOT-file was successful!
+> 
+? vsp> 
+< quit
+> Bye.

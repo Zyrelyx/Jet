@@ -1,0 +1,7 @@
+digraph FamilyTree
+{
+  "Joffrey Baratheon [11]" -> "Jamie Lannister [13]";
+  "Joffrey Baratheon [11]" -> "Cersei Lannister [14]";
+  "Jamie Lannister [13]" -> "Tywin Lannister [12]";
+  "Cersei Lannister [14]" -> "Tywin Lannister [12]";
+}

@@ -1,0 +1,28 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< add 
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< add Jon Snow
+> Successfully created Jon Snow [1]!
+> 
+? vsp> 
+< add This is a valid Name
+> Successfully created This is a valid Name [2]!
+> 
+? vsp> 
+< add Jon Snow
+> Successfully created Jon Snow [3]!
+> 
+? vsp> 
+< list
+> - Jon Snow [1]*
+> - This is a valid Name [2]*
+> - Jon Snow [3]*
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< quit
+> Bye.

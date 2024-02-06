@@ -1,0 +1,7 @@
+digraph FamilyTree
+{
+  "Eddard Stark [14]" -> "Rickard Stark [11]";
+  "Eddard Stark [14]" -> "Lyarra Stark [12]";
+  "Arya Stark [19]" -> "Eddard Stark [14]";
+  "Arya Stark [19]" -> "Catelyn Tully [15]";
+}

@@ -1,0 +1,38 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< list
+> 
+? vsp> 
+< delete 
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< delete 10 Non existing Person
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< delete 10
+> Error: ID [10] does not exist. Use 'list' to find all available persons.
+> 
+? vsp> 
+< add Joffrey Baratheon
+> Successfully created Joffrey Baratheon [1]!
+> 
+? vsp> 
+< list
+> - Joffrey Baratheon [1]*
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< delete 1
+> Deleting Joffrey Baratheon [1] was successful!
+> 
+? vsp> 
+< list
+> - ? [1]*
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< quit
+> Bye.

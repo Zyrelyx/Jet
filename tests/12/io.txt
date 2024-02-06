@@ -1,0 +1,55 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< 
+? vsp> 
+< add Tyrion Lannister
+> Successfully created Tyrion Lannister [1]!
+> 
+? vsp> 
+< add Tywin Lannister
+> Successfully created Tywin Lannister [2]!
+> 
+? vsp> 
+< list
+> - Tyrion Lannister [1]*
+> - Tywin Lannister [2]*
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< connect 
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< connect 2
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< connect 2 parent1 1 uselessText
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< connect 2 parent1 44 
+> Error: ID [44] does not exist. Use 'list' to find all available persons.
+> 
+? vsp> 
+< connect 154 invalidRelation 44
+> Error: ID [154] does not exist. Use 'list' to find all available persons.
+> 
+? vsp> 
+< connect 2 invalidRelation 1
+> Error: The given relation parameter does not exist.
+> 
+? vsp> 
+< connect 2 parent2 1
+> Successfully connected Tywin Lannister [2] as parent2 of Tyrion Lannister [1]!
+> 
+? vsp> 
+< list
+> - Tyrion Lannister [1]
+> - Tywin Lannister [2]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< quit
+> Bye.

@@ -1,0 +1,30 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< rename 
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< rename 10 Non existing Person
+> Error: ID [10] does not exist. Use 'list' to find all available persons.
+> 
+? vsp> 
+< rename Non existing Person
+> Error: ID [Non] does not exist. Use 'list' to find all available persons.
+> 
+? vsp> 
+< add Joffrey Baratheon
+> Successfully created Joffrey Baratheon [1]!
+> 
+? vsp> 
+< rename 1 Joffrey Lannister
+> Renaming Joffrey Baratheon [1] to Joffrey Lannister [1] was successful!
+> 
+? vsp> 
+< list
+> - Joffrey Lannister [1]*
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< quit
+> Bye.

@@ -1,0 +1,28 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - ? [2]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< prune to many paramenters
+> Error: Wrong parameter count.
+> 
+? vsp> 
+< prune
+> Pruning was successful!
+> 
+? vsp> 
+< list
+> - Rickard Stark [1]
+> - Benjen Stark [3]
+> - Eddard Stark [4]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 
+< quit
+> Bye.

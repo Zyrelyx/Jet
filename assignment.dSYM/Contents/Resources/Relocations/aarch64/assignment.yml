@@ -1,0 +1,47 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     assignment
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x0, symBinAddr: 0x1000017EC, symSize: 0x120 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x0, symBinAddr: 0x1000017EC, symSize: 0x120 }
+  - { offsetInCU: 0xAC, offset: 0xAC, size: 0x8, addend: 0x0, symName: _addCommandHandler, symObjAddr: 0x120, symBinAddr: 0x10000190C, symSize: 0x88 }
+  - { offsetInCU: 0x26, offset: 0x19B, size: 0x8, addend: 0x0, symName: _terminateSpaceCharacter, symObjAddr: 0x0, symBinAddr: 0x100001994, symSize: 0x8C }
+  - { offsetInCU: 0x4D, offset: 0x1C2, size: 0x8, addend: 0x0, symName: _COMMAND_STRINGS, symObjAddr: 0x18C0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x78, offset: 0x1ED, size: 0x8, addend: 0x0, symName: _COMMAND_PARAMETER_COUNTS, symObjAddr: 0x1BE0, symBinAddr: 0x100003F40, symSize: 0x0 }
+  - { offsetInCU: 0xCC, offset: 0x241, size: 0x8, addend: 0x0, symName: _terminateSpaceCharacter, symObjAddr: 0x0, symBinAddr: 0x100001994, symSize: 0x8C }
+  - { offsetInCU: 0x102, offset: 0x277, size: 0x8, addend: 0x0, symName: _checkIfPersonExists, symObjAddr: 0x8C, symBinAddr: 0x100001A20, symSize: 0x88 }
+  - { offsetInCU: 0x162, offset: 0x2D7, size: 0x8, addend: 0x0, symName: _getPersonsFromLine, symObjAddr: 0x114, symBinAddr: 0x100001AA8, symSize: 0x27C }
+  - { offsetInCU: 0x1FF, offset: 0x374, size: 0x8, addend: 0x0, symName: _readPersonsFromDotFile, symObjAddr: 0x390, symBinAddr: 0x100001D24, symSize: 0xF8 }
+  - { offsetInCU: 0x251, offset: 0x3C6, size: 0x8, addend: 0x0, symName: _checkMagicNumber, symObjAddr: 0x488, symBinAddr: 0x100001E1C, symSize: 0xA4 }
+  - { offsetInCU: 0x287, offset: 0x3FC, size: 0x8, addend: 0x0, symName: _getIndexWithId, symObjAddr: 0x52C, symBinAddr: 0x100001EC0, symSize: 0x88 }
+  - { offsetInCU: 0x2D9, offset: 0x44E, size: 0x8, addend: 0x0, symName: _getAmountofParents, symObjAddr: 0x5B4, symBinAddr: 0x100001F48, symSize: 0xDC }
+  - { offsetInCU: 0x32B, offset: 0x4A0, size: 0x8, addend: 0x0, symName: _getPersonsRelated, symObjAddr: 0x690, symBinAddr: 0x100002024, symSize: 0x1EC }
+  - { offsetInCU: 0x3BD, offset: 0x532, size: 0x8, addend: 0x0, symName: _getRelationsFromDotFile, symObjAddr: 0x87C, symBinAddr: 0x100002210, symSize: 0xF4 }
+  - { offsetInCU: 0x431, offset: 0x5A6, size: 0x8, addend: 0x0, symName: _help, symObjAddr: 0x970, symBinAddr: 0x100002304, symSize: 0x88 }
+  - { offsetInCU: 0x446, offset: 0x5BB, size: 0x8, addend: 0x0, symName: _getUserInput, symObjAddr: 0x9F8, symBinAddr: 0x10000238C, symSize: 0x90 }
+  - { offsetInCU: 0x478, offset: 0x5ED, size: 0x8, addend: 0x0, symName: _freePersonArray, symObjAddr: 0xA88, symBinAddr: 0x10000241C, symSize: 0x80 }
+  - { offsetInCU: 0x4C6, offset: 0x63B, size: 0x8, addend: 0x0, symName: _getParameterCount, symObjAddr: 0xB08, symBinAddr: 0x10000249C, symSize: 0xBC }
+  - { offsetInCU: 0x50A, offset: 0x67F, size: 0x8, addend: 0x0, symName: _checkParameterCount, symObjAddr: 0xBC4, symBinAddr: 0x100002558, symSize: 0x74 }
+  - { offsetInCU: 0x54E, offset: 0x6C3, size: 0x8, addend: 0x0, symName: _convertUpperCase, symObjAddr: 0xC38, symBinAddr: 0x1000025CC, symSize: 0x9C }
+  - { offsetInCU: 0x59C, offset: 0x711, size: 0x8, addend: 0x0, symName: _compareCommandFirstParameter, symObjAddr: 0xCD4, symBinAddr: 0x100002668, symSize: 0xF0 }
+  - { offsetInCU: 0x5EE, offset: 0x763, size: 0x8, addend: 0x0, symName: _getCommandIndex, symObjAddr: 0xDC4, symBinAddr: 0x100002758, symSize: 0x20C }
+  - { offsetInCU: 0x65C, offset: 0x7D1, size: 0x8, addend: 0x0, symName: _renamePerson, symObjAddr: 0xFD0, symBinAddr: 0x100002964, symSize: 0x17C }
+  - { offsetInCU: 0x6EA, offset: 0x85F, size: 0x8, addend: 0x0, symName: _doCommand, symObjAddr: 0x114C, symBinAddr: 0x100002AE0, symSize: 0xF0 }
+  - { offsetInCU: 0x73C, offset: 0x8B1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1250, symBinAddr: 0x100002BE4, symSize: 0x1DC }
+  - { offsetInCU: 0x26, offset: 0xBC6, size: 0x8, addend: 0x0, symName: _addGrandParent, symObjAddr: 0x0, symBinAddr: 0x100002DC0, symSize: 0x1DC }
+  - { offsetInCU: 0x41, offset: 0xBE1, size: 0x8, addend: 0x0, symName: _addGrandParent, symObjAddr: 0x0, symBinAddr: 0x100002DC0, symSize: 0x1DC }
+  - { offsetInCU: 0x9D, offset: 0xC3D, size: 0x8, addend: 0x0, symName: _setPersonParent, symObjAddr: 0x1DC, symBinAddr: 0x100002F9C, symSize: 0x88 }
+  - { offsetInCU: 0xDD, offset: 0xC7D, size: 0x8, addend: 0x0, symName: _connect, symObjAddr: 0x264, symBinAddr: 0x100003024, symSize: 0x12C }
+  - { offsetInCU: 0x171, offset: 0xD11, size: 0x8, addend: 0x0, symName: _connectCommandHandler, symObjAddr: 0x390, symBinAddr: 0x100003150, symSize: 0xCC }
+  - { offsetInCU: 0x26, offset: 0xE3C, size: 0x8, addend: 0x0, symName: _draw, symObjAddr: 0x0, symBinAddr: 0x10000321C, symSize: 0x364 }
+  - { offsetInCU: 0x42, offset: 0xE58, size: 0x8, addend: 0x0, symName: _draw, symObjAddr: 0x0, symBinAddr: 0x10000321C, symSize: 0x364 }
+  - { offsetInCU: 0xC8, offset: 0xEDE, size: 0x8, addend: 0x0, symName: _drawAll, symObjAddr: 0x364, symBinAddr: 0x100003580, symSize: 0x4 }
+  - { offsetInCU: 0xDD, offset: 0xEF3, size: 0x8, addend: 0x0, symName: _splitStringToArray, symObjAddr: 0x368, symBinAddr: 0x100003584, symSize: 0x120 }
+  - { offsetInCU: 0x13D, offset: 0xF53, size: 0x8, addend: 0x0, symName: _isInteger, symObjAddr: 0x488, symBinAddr: 0x1000036A4, symSize: 0x8C }
+  - { offsetInCU: 0x181, offset: 0xF97, size: 0x8, addend: 0x0, symName: _drawCommandHandler, symObjAddr: 0x514, symBinAddr: 0x100003730, symSize: 0xB8 }
+  - { offsetInCU: 0x26, offset: 0x127D, size: 0x8, addend: 0x0, symName: _checkInteger, symObjAddr: 0x0, symBinAddr: 0x1000037E8, symSize: 0x20 }
+  - { offsetInCU: 0x33, offset: 0x128A, size: 0x8, addend: 0x0, symName: _checkInteger, symObjAddr: 0x0, symBinAddr: 0x1000037E8, symSize: 0x20 }
+  - { offsetInCU: 0x26, offset: 0x12E6, size: 0x8, addend: 0x0, symName: _getPersonById, symObjAddr: 0x0, symBinAddr: 0x100003808, symSize: 0x94 }
+  - { offsetInCU: 0x33, offset: 0x12F3, size: 0x8, addend: 0x0, symName: _getPersonById, symObjAddr: 0x0, symBinAddr: 0x100003808, symSize: 0x94 }
+  - { offsetInCU: 0x93, offset: 0x1353, size: 0x8, addend: 0x0, symName: _getHighestId, symObjAddr: 0x94, symBinAddr: 0x10000389C, symSize: 0x98 }
+...

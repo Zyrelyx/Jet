@@ -1,0 +1,7 @@
+digraph FamilyTree
+{
+  "Benjen Stark [3]" -> "Rickard Stark [1]";
+  "Benjen Stark [3]" -> "? [2]";
+  "Eddard Stark [4]" -> "Rickard Stark [1]";
+  "Eddard Stark [4]" -> "? [2]";
+}

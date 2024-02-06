@@ -1,0 +1,12 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< list
+> - Jaehaerys Targaryen II [13]
+> - Aerys Targaryen II (The Mad) [14]
+> - Rhaegar Targaryen [15]
+> - Viserys Targaryen [16]
+> - Daenerys Targaryen [17]
+> Persons with an asterisk (*) are not connected to any other person.
+> 
+? vsp> 

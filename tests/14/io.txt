@@ -1,0 +1,63 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< prune
+> Nothing to prune!
+> 
+? vsp> 
+< relationship 13 14
+> Jamie Lannister [13] and Cersei Lannister [14] are related.
+> 
+? vsp> 
+< relationship 13 11
+> Jamie Lannister [13] and Joffrey Baratheon [11] are related.
+> Jamie Lannister [13] is the parent of Joffrey Baratheon [11].
+> 
+? vsp> 
+< relationship 14 11
+> Cersei Lannister [14] and Joffrey Baratheon [11] are related.
+> Cersei Lannister [14] is the parent of Joffrey Baratheon [11].
+> 
+? vsp> 
+< relationship 11 12
+> Joffrey Baratheon [11] and Tywin Lannister [12] are related.
+> Joffrey Baratheon [11] is the grandchild of Tywin Lannister [12].
+> 
+? vsp> 
+< relationship 12 11
+> Tywin Lannister [12] and Joffrey Baratheon [11] are related.
+> Tywin Lannister [12] is the grandparent of Joffrey Baratheon [11].
+> 
+? vsp> 
+< delete 12
+> Deleting Tywin Lannister [12] was successful!
+> 
+? vsp> 
+< draw-all
+>   Joffrey Baratheon [11] -> Jamie Lannister [13]
+>   Joffrey Baratheon [11] -> Cersei Lannister [14]
+>   Jamie Lannister [13] -> ? [12]
+>   Cersei Lannister [14] -> ? [12]
+> 
+? vsp> 
+< delete 14
+> Deleting Cersei Lannister [14] was successful!
+> 
+? vsp> 
+< draw 11
+>   Joffrey Baratheon [11] -> Jamie Lannister [13]
+>   Joffrey Baratheon [11] -> ? [14]
+>   Jamie Lannister [13] -> ? [12]
+>   ? [14] -> ? [12]
+> 
+? vsp> 
+< prune
+> Pruning was successful!
+> 
+? vsp> 
+< draw-all configs/config_14
+> Creating DOT-file was successful!
+> 
+? vsp> 
+< quit
+> Bye.

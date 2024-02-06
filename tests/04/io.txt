@@ -1,0 +1,34 @@
+> Welcome to the VSP Family Tree!
+> 
+? vsp> 
+< noneExistingCommand
+? vsp> 
+< noneExistingCommand with arguments
+? vsp> 
+< help
+> Available commands:
+> - help: Display this help message.
+> - add <person name>
+>   Add a new person to the program
+> - list
+>   Print all individuals that have been added (or initially imported)
+> - connect <id> <relation> <id>
+>   Connect a person to another person and specify their relationship
+> - rename <id> <new name>
+>   Rename an existing person
+> - delete <id>
+>   Remove an existing person from the family tree
+> - draw-all <filename>
+>   Write all relationships to the terminal or a DOT file. <filename> is optional
+> - draw <id> <filename>
+>   Write all ancestors of a person to the terminal or a DOT file. <filename> is optional
+> - relationship <id1> <id2>
+>   Find out whether a family relationship exists between two indivduals
+> - prune
+>   Remove unkown leaf nodes from tree(s)
+> - quit
+>   End the program
+> 
+? vsp> 
+< quit
+> Bye.

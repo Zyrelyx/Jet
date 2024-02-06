@@ -1,0 +1,15 @@
+digraph FamilyTree
+{
+  "Benjen Stark [3]" -> "Rickard Stark [1]";
+  "Benjen Stark [3]" -> "Lyarra Stark [2]";
+  "Eddard Stark [4]" -> "Rickard Stark [1]";
+  "Eddard Stark [4]" -> "Lyarra Stark [2]";
+  "Jon Snow [6]" -> "Eddard Stark [4]";
+  "Jon Snow [6]" -> "? [10]";
+  "Robb Stark [7]" -> "Catelyn Tully [5]";
+  "Robb Stark [7]" -> "Eddard Stark [4]";
+  "Sansa Stark [8]" -> "Eddard Stark [4]";
+  "Sansa Stark [8]" -> "Catelyn Tully [5]";
+  "Arya Stark [9]" -> "Eddard Stark [4]";
+  "Arya Stark [9]" -> "Catelyn Tully [5]";
+}
